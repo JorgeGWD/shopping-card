@@ -11,7 +11,7 @@ export default function Header() {
             <div>
                 <span className='cart-badge'>0</span>
                 <Link href='/cart'>
-                    Cart
+                    Carrito
                 </Link>
             </div>
         </nav>
