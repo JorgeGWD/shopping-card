@@ -1,5 +1,4 @@
 import AddToCart from '@/components/AddToCart'
-import ProductRate from '@/components/ProductRate'
 import { data } from '@/utils/data'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -35,7 +34,6 @@ export default function ProductDetailPage({ params: { id } }) {
                 </li>
 
                 <li>
-                <ProductRate rate={product.rating} count={product.numReviews} />
                 </li>
 
                 <li>
